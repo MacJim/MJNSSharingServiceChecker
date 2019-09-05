@@ -14,6 +14,7 @@
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
+    [[self shareButton] sendActionOn:NSEventMaskLeftMouseDown];    // This is to prevent the warning messages from appearing in the console.
 }
 
 
